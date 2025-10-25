@@ -43,20 +43,24 @@ PathfindingVisualizer/
 ## **Installation**
 
 1. Clone the repository:
-```bash
-git clone https://github.com/<your-username>/PathfindingVisualizer.git
+```
+git clone https://github.com/<your-username>/PathfindingVisualizer.git 
 cd PathfindingVisualizer
+```
+
+
 Compile all source files:
 
-bash
-Copy code
+```
 g++ main.cpp grid.cpp bfs.cpp dfs.cpp dijkstra.cpp a_star.cpp utils.cpp -o pathfinder
 Run the visualizer with an example grid:
+```
 
-bash
-Copy code
+
 ./pathfinder examples/example1.txt
-Usage
+
+
+Usage : 
 The program loads a grid from a text file.
 
 Obstacles are represented as 1, open cells as 0.
@@ -65,18 +69,20 @@ Pathfinding algorithms mark the path on the grid using *.
 
 Multiple algorithms can be run sequentially to compare results.
 
+
+
 Example grid (examples/example1.txt):
 
-Copy code
+
 0 0 0 0 0
 0 1 1 0 0
 0 0 0 0 0
 0 0 1 1 0
 0 0 0 0 0
+
+
 CLI output:
 
-markdown
-Copy code
 Original Grid:
 . . . . .
 . # # . .
@@ -98,7 +104,7 @@ DFS Path:
 * * # # *
 * * * * *
 
----
+
 
 Contributing
 Contributions are welcome! Suggested ways to contribute:
