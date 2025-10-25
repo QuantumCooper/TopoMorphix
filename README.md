@@ -106,10 +106,11 @@ DFS Path:
 Contributing
 Contributions are welcome! Suggested ways to contribute:
 
-Add new pathfinding algorithms or optimizations.
+- Add new pathfinding algorithms or optimizations.
 
-Improve grid visualization or add GUI support.
+- Improve grid visualization or add GUI support.
 
-Fix bugs or improve performance.
+- Fix bugs or improve performance.
 
-Enhance example grids for testing.
+- Enhance example grids for testing.
+
