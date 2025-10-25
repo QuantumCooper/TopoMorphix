@@ -54,11 +54,8 @@ Compile all source files:
 ```
 g++ main.cpp grid.cpp bfs.cpp dfs.cpp dijkstra.cpp a_star.cpp utils.cpp -o pathfinder
 Run the visualizer with an example grid:
-```
-
-
 ./pathfinder examples/example1.txt
-
+```
 
 Usage : 
 The program loads a grid from a text file.
