@@ -37,8 +37,6 @@ PathfindingVisualizer/
 ├─ example1.txt
 └─ example2.txt
 
-yaml
-Copy code
 
 ---
 
@@ -99,6 +97,9 @@ DFS Path:
 * * * * *
 * * # # *
 * * * * *
+
+---
+
 Contributing
 Contributions are welcome! Suggested ways to contribute:
 
