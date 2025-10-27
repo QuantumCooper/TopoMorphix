@@ -1,13 +1,11 @@
-#pragma once 
-#include "grid.h"
-#include <queue>
-#include <vector>
+#ifndef DFS_H
+#define DFS_H
 
-class BFS {
+#include "grid.h"  // ensures Grid is known
+
+class DFS {
 public:
     void findPath(Grid &grid);
-
-private:
-    std::queue<std::pair<int, int>> q; // Queue for BFS traversal
-    std::vector<std::vector<bool>> visited; // Track visited cells
 };
+
+#endif
